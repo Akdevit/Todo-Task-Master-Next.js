@@ -124,8 +124,8 @@ const DashboardGraf = () => {
   ]);
 
   return (
-    <div className="w-[100%] h-[450px]  flex justify-around items-center mt-14 p-4 xl:p-0 lg:p-0 md:p-0 sm:p-0 overflow-hidden">
-      <canvas id="myChart"></canvas>
+    <div className="w-[100%]  xl:h-[450px] lg:h-[450px] md:h-[450px] sm:h-[450px] h-auto  flex justify-around items-center mt-14 p-4 xl:p-0 lg:p-0 md:p-0 sm:p-0 overflow-hidden ">
+      <canvas id="myChart" className="h-[850px] "></canvas>
     </div>
   );
 };

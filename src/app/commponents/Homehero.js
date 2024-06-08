@@ -113,7 +113,7 @@ const Homehero = () => {
       </div>
       {/* set calender */}
       {showcalender && (
-        <div className="w-[100%] h-[100vh] popupbackgound z-50 fixed top-0 flex justify-center items-center">
+        <div className="w-[100%] h-[100vh] popupbackgound z-50 fixed top-0 flex justify-center items-center p-4">
           <div className="w-[80%] xl:w-[35%] lg:w-[40%] md:w-[40%] sm:w-[60%] h-auto pb-5 bg-white rounded-sm">
             <div className="w-[100%] h-auto flex justify-end items-center p-3">
               <RxCross2
