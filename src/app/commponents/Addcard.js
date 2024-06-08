@@ -114,7 +114,7 @@ const Addcard = () => {
         {/* Main card handle div */}
         {Alltodos ? (
           <>
-            <h1 className="text-5xl text-gray-300 font-bold font-mono">
+            <h1 className="xl:text-5xl lg:text-5xl md:text-5xl sm:text-5xl text-3xl text-gray-300 font-bold font-mono">
               Add Your Todo{"'"}s
             </h1>
           </>

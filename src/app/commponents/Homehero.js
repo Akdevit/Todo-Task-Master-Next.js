@@ -40,16 +40,6 @@ const Homehero = () => {
         icon: <Image src={Tlogo} alt="icon" />,
       });
     }
-
-    // Notification.requestPermission().then((res) => {
-    //   if (res === "granted") {
-    //     toast.info("welcome to Taskmaster", {
-    //       position: "top-center",
-    //       // theme: "colored",f
-
-    //     });
-    //   }
-    // });
   };
   const setduedatecalender = () => {
     setShowcalender(false);
@@ -80,13 +70,13 @@ const Homehero = () => {
               onChange={(e) => setInputvalue(e.target.value)}
             />
             {/* chartgpt */}
-            <div className=" flex justify-center items-center cursor-pointer delay-75">
+            {/* <div className=" flex justify-center items-center cursor-pointer delay-75">
               <Image
                 className="h-[30px] w-[50px]"
                 src={Tlogo}
                 alt="task_master.png"
               />
-            </div>
+            </div> */}
             {/* calender */}
             <div
               className="w-[30px] h-[30px]  rounded-full flex justify-center items-center cursor-pointer"
