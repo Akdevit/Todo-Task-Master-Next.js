@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.textgradient {
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textgradientbtn {
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+}
+.popupbackgound {
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+/* card */
+.cardgrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+
+
+.dashboardtodocard{
+  height: auto;
+  width: 100%;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  /* grid-template-rows: repeat(auto-fit,minmax(200px,1fr)); */
+  gap: 20px;
+ 
+}
+
+/* calender cros */
+.rotate {
+  transform: rotate(-45deg);
+}
+
+/* done */
+.strikethrough {
+  text-decoration: line-through;
+  color: rgb(174, 174, 174);
+  padding: 8px;
+  font-size: 13px;
+}
+.Priority{
+  font-size: 12px;
+  text-decoration: line-through;
+  color: rgb(174, 174, 174);
+}
+.carddashboard{
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
